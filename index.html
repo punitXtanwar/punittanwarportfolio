@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punit Tanwar | Portfolio</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">Punit<span class="logo-highlight">Tanwar</span></span>
+            </a>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container home-container">
+            <div class="home-content">
+                <div class="home-text">
+                    <p class="home-greeting">Hello, I'm</p>
+                    <h1 class="home-title">Punit <span class="highlight">Tanwar</span></h1>
+                    <p class="home-subtitle">BBA Student | Basketball Enthusiast | Tech Explorer</p>
+                    <p class="home-description">
+                        Welcome to my digital portfolio! I am a first-year BBA student at MIT Vishwaprayag University, 
+                        passionate about business, technology, and sports. I love playing basketball and badminton, 
+                        and enjoy bike rides that give me a sense of freedom and adventure.
+                    </p>
+                    <div class="home-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="assets/resume.pdf" class="btn btn-secondary" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <!-- PROFILE PHOTO - Replace 'assets/profile.jpg' with your actual photo file name -->
+                    <img src="assets/profile.jpg" alt="Punit Tanwar" class="profile-img">
+                    <div class="image-decoration"></div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about" class="scroll-down">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Who I Am</h3>
+                    <p>
+                        I am Punit Tanwar, a dedicated and enthusiastic first-year student pursuing 
+                        <strong>Bachelors of Business Administration (BBA)</strong> at 
+                        <strong>MIT Vishwaprayag University</strong>. I have a keen interest in understanding 
+                        how businesses operate and grow in the modern world.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>My Interests</h3>
+                    <p>
+                        Beyond academics, I am passionate about <strong>basketball</strong> and <strong>badminton</strong>. 
+                        Sports teach me teamwork, discipline, and perseverance. I also love <strong>bike rides</strong> 
+                        — there's nothing quite like the feeling of the open road and the wind in your face during a sunset ride.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>My Goals</h3>
+                    <p>
+                        My goal is to build a strong foundation in business administration and develop skills 
+                        that will help me become a successful professional. I aim to combine my business knowledge 
+                        with technology to create innovative solutions in the corporate world.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Skills Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education & <span class="highlight">Skills</span></h2>
+                <p class="section-subtitle">My academic journey and abilities</p>
+            </div>
+
+            <div class="education-grid">
+                <!-- Education Timeline -->
+                <div class="education-timeline">
+                    <h3 class="timeline-title"><i class="fas fa-graduation-cap"></i> Academic Background</h3>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025 - Present</span>
+                            <h4>Bachelors of Business Administration (BBA)</h4>
+                            <p class="timeline-institution">MIT Vishwaprayag University</p>
+                            <p class="timeline-desc">Currently pursuing my BBA degree, focusing on business management, marketing, and entrepreneurship.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Completed</span>
+                            <h4>Higher Secondary Education</h4>
+                            <p class="timeline-institution">PS English Medium Junior College</p>
+                            <p class="timeline-desc">Completed higher secondary education with a strong academic record and active participation in extracurricular activities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="skills-container">
+                    <h3 class="skills-title"><i class="fas fa-tools"></i> Skills & Interests</h3>
+
+                    <div class="skill-category">
+                        <h4>Technical Skills</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Business Management</span>
+                            <span class="skill-tag">Microsoft Office</span>
+                            <span class="skill-tag">HTML & CSS</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag">Problem Solving</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Soft Skills</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Leadership</span>
+                            <span class="skill-tag">Time Management</span>
+                            <span class="skill-tag">Adaptability</span>
+                            <span class="skill-tag">Critical Thinking</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>Hobbies & Activities</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag hobby"><i class="fas fa-basketball-ball"></i> Basketball</span>
+                            <span class="skill-tag hobby"><i class="fas fa-table-tennis"></i> Badminton</span>
+                            <span class="skill-tag hobby"><i class="fas fa-motorcycle"></i> Bike Rides</span>
+                            <span class="skill-tag hobby"><i class="fas fa-book"></i> Reading</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Certificates</span></h2>
+                <p class="section-subtitle">Achievements and certifications</p>
+            </div>
+
+            <div class="certificates-grid">
+                <!-- Certificate 1: Coursera -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <!-- CERTIFICATE IMAGE - Replace 'assets/certificate.jpg' with your actual certificate file name -->
+                        <img src="assets/certificate.jpg" alt="Coursera Certificate">
+                        <div class="certificate-overlay">
+                            <button class="view-btn" onclick="openModal('assets/certificate.jpg')">
+                                <i class="fas fa-expand"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <span class="certificate-badge">Coursera</span>
+                        <h3>Professional Certificate</h3>
+                        <p>Completed a professional certification course to enhance my skills and knowledge in the field.</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                            <span><i class="fas fa-award"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 2: NetAcad -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <div class="certificate-placeholder">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn" onclick="openModal('assets/netacad.jpg')">
+                                <i class="fas fa-expand"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <span class="certificate-badge netacad">NetAcad</span>
+                        <h3>Cisco Networking Academy</h3>
+                        <p>Completed networking fundamentals course through Cisco's NetAcad platform.</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                            <span><i class="fas fa-award"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 3: YuvaAI -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <div class="certificate-placeholder yuvaai">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="certificate-overlay">
+                            <button class="view-btn" onclick="openModal('assets/yuvaai.jpg')">
+                                <i class="fas fa-expand"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <span class="certificate-badge yuvaai">YuvaAI</span>
+                        <h3>AI Fundamentals</h3>
+                        <p>Participated in YuvaAI program to learn the basics of Artificial Intelligence and its applications.</p>
+                        <div class="certificate-meta">
+                            <span><i class="fas fa-calendar"></i> 2025</span>
+                            <span><i class="fas fa-award"></i> Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+                <p class="section-subtitle">Academic and personal projects</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: AI4A -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon ai4a">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">AI Project</span>
+                        <h3>AI4A Project</h3>
+                        <p>
+                            An innovative project focused on Artificial Intelligence for All (AI4A). 
+                            Explored practical applications of AI in business and everyday life, 
+                            demonstrating how AI can solve real-world problems.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Design Thinking -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon design">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Innovation</span>
+                        <h3>Design Thinking Project</h3>
+                        <p>
+                            A comprehensive design thinking project that involved identifying user needs, 
+                            brainstorming creative solutions, prototyping, and testing innovative ideas 
+                            to solve complex business challenges.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Project</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Portfolio Website -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-icon web">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Web Development</span>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            Designed and developed this responsive portfolio website using HTML, CSS, and JavaScript. 
+                            Showcases my skills, projects, and achievements in a professional manner.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Photo <span class="highlight">Gallery</span></h2>
+                <p class="section-subtitle">Moments and memories</p>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Gallery Item 1: Profile Photo -->
+                <div class="gallery-item" onclick="openModal('assets/profile.jpg')">
+                    <!-- GALLERY PHOTO - Replace 'assets/profile.jpg' with your actual photo file name -->
+                    <img src="assets/profile.jpg" alt="Punit Tanwar - Sunset Ride">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <i class="fas fa-expand"></i>
+                            <p>Sunset Bike Ride</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 2: Certificate -->
+                <div class="gallery-item" onclick="openModal('assets/certificate.jpg')">
+                    <img src="assets/certificate.jpg" alt="Certificate">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <i class="fas fa-expand"></i>
+                            <p>Professional Certificate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 3: Placeholder for more photos -->
+                <div class="gallery-item placeholder">
+                    <div class="gallery-placeholder-content">
+                        <i class="fas fa-camera"></i>
+                        <p>More photos coming soon...</p>
+                    </div>
+                </div>
+
+                <!-- Gallery Item 4: Placeholder -->
+                <div class="gallery-item placeholder">
+                    <div class="gallery-placeholder-content">
+                        <i class="fas fa-images"></i>
+                        <p>Add your photos here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <p class="section-subtitle">Let's connect and collaborate</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>punit.tanwar@email.com</p>
+                        <a href="mailto:punit.tanwar@email.com" class="contact-link">Send Email</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p>+91 98765 43210</p>
+                        <a href="tel:+919876543210" class="contact-link">Call Now</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>MIT Vishwaprayag University</p>
+                        <span class="contact-link">Solapur, Maharashtra</span>
+                    </div>
+                </div>
+
+                <div class="contact-social">
+                    <h3>Connect With Me</h3>
+                    <div class="social-grid">
+                        <a href="#" class="social-card linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-card github">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#" class="social-card instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" class="social-card twitter">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Punit <span>Tanwar</span></h3>
+                    <p>BBA Student | MIT Vishwaprayag University</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Punit Tanwar. All rights reserved.</p>
+                <p class="footer-college">MIT Vishwaprayag University</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal (Lightbox) -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
